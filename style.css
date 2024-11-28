@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .btn-primary,
+header .btn-primary {
+    background-color: rgb(237, 101, 35);
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    color: white;
+}
+
+.card .btn-primary:hover,
+header .btn-primary:hover {
+    background-color: rgb(200, 80, 30);
+    color: white;
+}
+
+.card-img-top {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Seção Empresas Parceiras */
+/* Seção Empresas Parceiras */
+
+section.py-5 .logo-parceiro {
+    max-height: 80px; /* Reduz o tamanho das logos */
+    object-fit: contain;
+    margin: 0 auto; /* Garante centralização */
+    transition: transform 0.3s ease-in-out;
+}
+
+section.py-5 img:hover {
+    transform: scale(1.1); /* Pequeno zoom ao passar o mouse */
+}
+
+/* Espaçamento adicional entre os itens na seção Empresas Parceiras */
+section.py-5.empresas-parceiras .row {
+    gap: 20px; /* Espaçamento uniforme entre os logos */
+}
+
+
+
+
